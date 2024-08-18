@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsTop(window.scrollY < 10);
+      setIsTop(window.scrollY < 50);
     };
     window.addEventListener('scroll', handleScroll);
     
@@ -30,7 +30,7 @@ function App() {
           <Art />
         </div>
         {isTop && (
-          <div className='absolute bottom-10 left-[70%] transform -translate-x-1/2'>
+          <div className='absolute bottom-10 left-[70%]'>
             <FaChevronDown className='text-green-500 text-3xl animate-bounce' />
           </div>
         )}
