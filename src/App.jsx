@@ -7,7 +7,7 @@ function App() {
     <div className='flex justify-center min-h-screen'>
       <div className='flex flex-col md:flex-row max-w-[1600px] w-full h-full'>
         <Profile />
-        <div className='flex flex-col justify-start items-start text-left p-16 w-full md:ml-[50%]'>
+        <div className='flex flex-col justify-start items-start text-left p-16 w-full md:ml-[45%]'>
           <Research />
         </div>
       </div>
