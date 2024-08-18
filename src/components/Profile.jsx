@@ -41,16 +41,16 @@ function Lander() {
                 <span>Research</span>
             </div>
         </a>
-        <a href='#Artwork'>
-            <div className='transition-all hover:translate-x-5 flex items-center text-green-500'>
-                <FaArrowRight className='mr-1' />
-                <span>Artwork</span>
-            </div>
-        </a>
-        <a href='#MockBusiness'>
+        <a href='#Business'>
             <div className='transition-all hover:translate-x-5 flex items-center text-green-500'>
                 <FaArrowRight className='mr-1' />
                 <span>Mock Business</span>
+            </div>
+        </a>
+        <a href='#Art'>
+            <div className='transition-all hover:translate-x-5 flex items-center text-green-500'>
+                <FaArrowRight className='mr-1' />
+                <span>Artwork</span>
             </div>
         </a>
       </div>
