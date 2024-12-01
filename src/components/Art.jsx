@@ -1,7 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import video from './Combined.mp4';
 
 const Art = () => {
     const images = [
@@ -13,14 +12,14 @@ const Art = () => {
     ];
     return (
         <div className='lg:pb-20' id='Art'>
-            <div className='font-bold text-xl md:text-2xl lg:text-3xl sticky top-0 w-full py-2 text-green-500 bg-white opacity-95'>
+            <div className='z-50 font-bold text-xl md:text-2xl lg:text-3xl sticky top-0 w-full py-2 text-green-500 bg-white opacity-95'>
                 Art
             </div>
-            <div className='text-lg md:text-xl xl:text-2xl leading-relaxed space-y-5 mt-5'>
+            <div className='z-20 text-lg md:text-xl xl:text-2xl leading-relaxed space-y-5 mt-5'>
                 <h1>
                     3D art in Blender
                 </h1>
-                <div className='max-w-full mx-5'>
+                <div className='max-w-full mx-5 z-10'>
                     <Carousel 
                         showArrows={true}
                         autoPlay={true}
@@ -45,9 +44,13 @@ const Art = () => {
                     Saint Saens Introduction et Rondo Capriccioso 
                     Bach Partita No. 3
                 </p>
-                <video controls>
-                    <source src={video} type="video/mp4" />
-                </video>
+                <iframe
+                    id='ytplayer'
+                    type='text/html'
+                    width='100%'
+                    height='400'
+                    src='https://youtube.com/embed/Rmi-3GuTpvs?autoplay=0&controls=1&rel=1'
+                    ></iframe>
             </div>
         </div>
     );
