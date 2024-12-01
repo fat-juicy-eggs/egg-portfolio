@@ -17,6 +17,20 @@ const Art = () => {
             </div>
             <div className='z-20 text-lg md:text-xl xl:text-2xl leading-relaxed space-y-5 mt-5'>
                 <h1>
+                    Violin
+                </h1>
+                <p className='text-sm'>
+                    Saint Saens Introduction et Rondo Capriccioso 
+                    Bach Partita No. 3
+                </p>
+                <iframe
+                    id='ytplayer'
+                    type='text/html'
+                    width='100%'
+                    height='400'
+                    src='https://youtube.com/embed/Rmi-3GuTpvs?autoplay=0&controls=1&rel=1'
+                    ></iframe>
+                <h1>
                     3D art in Blender
                 </h1>
                 <div className='max-w-full mx-5 z-10'>
@@ -37,20 +51,6 @@ const Art = () => {
                         ))}
                     </Carousel>
                 </div>
-                <h1>
-                    Violin
-                </h1>
-                <p className='text-sm'>
-                    Saint Saens Introduction et Rondo Capriccioso 
-                    Bach Partita No. 3
-                </p>
-                <iframe
-                    id='ytplayer'
-                    type='text/html'
-                    width='100%'
-                    height='400'
-                    src='https://youtube.com/embed/Rmi-3GuTpvs?autoplay=0&controls=1&rel=1'
-                    ></iframe>
             </div>
         </div>
     );
